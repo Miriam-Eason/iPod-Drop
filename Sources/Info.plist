@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>iPod Drop</string>
+	<key>CFBundleExecutable</key>
+	<string>iPodDrop</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.frankqin.ipoddrop</string>
+	<key>CFBundleName</key>
+	<string>iPod Drop</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.2.0</string>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>26.0</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>读取你选择或拖入的 MP3 歌曲。</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>读取你拖入的 MP3 歌曲。</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSRemovableVolumesUsageDescription</key>
+	<string>读取 iPod 曲库并追加或删除你选择的歌曲。</string>
+</dict>
+</plist>

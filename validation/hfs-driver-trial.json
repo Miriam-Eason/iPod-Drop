@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-19",
+  "issue": "The winget/full Paragon build can prompt for activation immediately after installation.",
+  "change": "The Windows driver helper now downloads and installs the official Paragon HFS+ trial MSI instead of relying on winget.",
+  "trial_url": "https://dl.paragon-software.com/demo/hfs14_win_trial.msi",
+  "sha256": "b229a05dac3e49e36e86ecf8e7c5c4926e5d8ecc76505162eacce86642e4d3bd",
+  "size_bytes": 37588992,
+  "verified": {
+    "http_status": 200,
+    "content_length_matches": true,
+    "s3_sha256_metadata_matches": true
+  },
+  "installer_behavior": "downloads to TEMP, verifies SHA-256, runs msiexec /passive /norestart, then asks for a reboot",
+  "existing_installation": "warns the user and opens Settings > Apps so a full/winget build can be removed first",
+  "tested_on_windows_hardware": false
+}

@@ -1,0 +1,27 @@
+{
+  "original_audio_files_verified": 37,
+  "original_audio_files_changed": [],
+  "original_cdb_tracks_retained": 37,
+  "new_track_count": 38,
+  "sqlite_original_rows_preserved": true,
+  "signatures_verified": true,
+  "duplicate_test": {
+    "message": "全部已存在，跳过 1 首。",
+    "added": 0,
+    "duplicates": 1,
+    "failed": 0
+  },
+  "backup": "<iPod Drop backup folder>",
+  "sample": "<test MP3>",
+  "mac_native_filepicker_to_duplicate_result_verified": true,
+  "browser_filepicker_to_duplicate_result_verified_on_mac": true,
+  "browser_javascript_errors": [],
+  "windows_native_runtime_tested": false,
+  "ipod_hardware_playback_tested": false,
+  "delete_feature": {
+    "verified": true,
+    "record": "validation/delete-verification.json"
+  },
+  "mac_gui_song_manager_verified": true,
+  "real_device_delete_waiting_for_user": true
+}

@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.log
+
+# Local release artifacts
+*.zip
+iPod Drop.app/
+iPod Drop Windows/
+iPod Drop Windows 32-bit/
+
+# Runtime downloads and local backups
+runtime/
+runtime32/
+backups/
+
+# Personal device backup and screenshot
+validation/导入前曲库备份/
+validation/windows-ui.png

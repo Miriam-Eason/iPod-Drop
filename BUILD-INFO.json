@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-19",
+  "mac_arch": "arm64",
+  "mac_min": "26.0",
+  "windows_arch": "x64",
+  "windows_runtime": "Python 3.13.13",
+  "windows_runtime_sha256": "8766a8775746235e23cf5aee5027ab1060bb981d93110577adcf3508aa0cbd55",
+  "mutagen": "1.47.0",
+  "mac_engine": "Python 3.9+ launcher with vendored ipodsync and Mutagen",
+  "source_commits": {
+    "ipodsync": "28174c7f2f8ded61d19782fd2b2ee4922414db71",
+    "PodBox": "0f10c113d32e057965a6ac4f75a63edc054752af",
+    "hashab": "cc3e8aac05172a52e32da259fb31ccca9c625218"
+  },
+  "features": [
+    "drag-and-drop MP3 import",
+    "batch song management and delete on iPod",
+    "automatic library backup and transaction rollback",
+    "Windows HFS+ driver helper (Paragon HFS+)"
+  ],
+  "validation": {
+    "mac_app_launch_and_song_manager": "passed",
+    "delete_on_device_copy": "passed",
+    "delete_rollback": "passed",
+    "real_device_delete": "user action in app (sandbox approval limit)",
+    "windows_hfs_driver": "not yet tested on Windows hardware"
+  }
+}

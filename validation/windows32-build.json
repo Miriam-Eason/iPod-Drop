@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-19",
+  "package": "iPod-Drop-Windows32-x86.zip",
+  "architecture": "x86 (32-bit); also runs under WoW64 on 64-bit Windows",
+  "application_code": "same pure-Python engine, server, UI and HFS+ driver helper as the x64 package",
+  "runtime": {
+    "bundled": false,
+    "source": "official python.org Windows embeddable package, win32",
+    "preferred_versions": [
+      "3.13.13",
+      "3.13.12",
+      "3.13.11",
+      "3.13.10",
+      "3.13.9",
+      "3.13.8",
+      "3.13.7"
+    ],
+    "fallback_versions": [
+      "3.12.11",
+      "3.12.10",
+      "3.12.9",
+      "3.12.8",
+      "3.12.7"
+    ],
+    "first_launch_download": true,
+    "offline_fallback": "py -3-32 or a 32-bit python/pythonw already installed"
+  },
+  "checks": {
+    "python_syntax": "passed",
+    "javascript_syntax": "passed",
+    "no_compiled_x64_dependencies_in_app": true,
+    "pe_machine_check": "setup script requires IMAGE_FILE_MACHINE_I386 (0x014c) before installing the runtime",
+    "tested_on_real_32_bit_windows": false
+  }
+}

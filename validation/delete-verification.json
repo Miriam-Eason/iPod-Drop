@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-19",
+  "method": "Full temporary copy of a test iPod; the real device was read only.",
+  "delete_test": {
+    "before": 38,
+    "deleted_pids": [
+      8909719565935888453,
+      8720473726657861204
+    ],
+    "deleted_titles": [
+      "<test track A>",
+      "<test track B>"
+    ],
+    "after": 36,
+    "audio_files_removed": 2,
+    "other_audio_sha256_unchanged": true,
+    "sqlite_integrity_ok": true,
+    "playlist_counts_ok": true,
+    "hashab_signature_ok": true,
+    "transaction_directory_cleared": true
+  },
+  "rollback_test": {
+    "injected_failure": "os.replace of new-iTunesCDB during install",
+    "database_signature_restored": true,
+    "all_audio_files_restored": true,
+    "transaction_directory_cleared": true,
+    "song_count_after_restore": 38
+  },
+  "mac_gui_verified": {
+    "build": "0.2.0 build 2, Swift 6, ad-hoc signed, codesign --verify --deep --strict passed",
+    "device_detected": "test iPod, 38 songs",
+    "song_manager_sheet": "opened, list rendered, search and selection controls present",
+    "actual_delete_on_real_device": false,
+    "reason": "Sandbox blocks writes to /Volumes and the escalation reviewer is unavailable (usage limit). Delete on the real device remains a user-initiated action in the app."
+  },
+  "windows": {
+    "engine_and_ui_synced_with_mac": true,
+    "python_syntax_ok": true,
+    "javascript_syntax_ok": true,
+    "hfs_driver_script_present": true,
+    "hfs_driver_tested_on_windows_hardware": false,
+    "driver_install_fallback": "tries winget ids Paragon.HFSPlus / Paragon.HFS+ / ParagonSoftware.HFSPlus, then opens the official Paragon page"
+  },
+  "packages": {
+    "mac": "iPod-Drop-Mac-AppleSilicon.zip",
+    "windows": "iPod-Drop-Windows-x64.zip",
+    "source": "iPod-Drop-Source.zip"
+  }
+}
