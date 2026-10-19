@@ -1,5 +1,7 @@
 # iPod Drop
 
+[简体中文](README.md) | [English](README.en.md)
+
 一个不依赖 iTunes 的 iPod nano 6/7 歌曲导入与管理工具。
 
 把 MP3 或整个歌曲文件夹拖进窗口，就能批量追加到 iPod；也可以打开“管理歌曲”，搜索、勾选并删除设备上的歌曲。删除只影响 iPod，电脑里的原 MP3 不会被改动。
